@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "HAL_ClosestPoint/1.0.0": {
+        "runtime": {
+          "HAL_ClosestPoint.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HAL_ClosestPoint/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

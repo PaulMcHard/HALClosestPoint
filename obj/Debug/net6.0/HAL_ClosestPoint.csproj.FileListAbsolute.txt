@@ -1,0 +1,15 @@
+C:\Users\djb20103\Code\HAL_ClosestPoint\bin\Debug\net6.0\HAL_ClosestPoint.exe
+C:\Users\djb20103\Code\HAL_ClosestPoint\bin\Debug\net6.0\HAL_ClosestPoint.deps.json
+C:\Users\djb20103\Code\HAL_ClosestPoint\bin\Debug\net6.0\HAL_ClosestPoint.runtimeconfig.json
+C:\Users\djb20103\Code\HAL_ClosestPoint\bin\Debug\net6.0\HAL_ClosestPoint.dll
+C:\Users\djb20103\Code\HAL_ClosestPoint\bin\Debug\net6.0\ref\HAL_ClosestPoint.dll
+C:\Users\djb20103\Code\HAL_ClosestPoint\bin\Debug\net6.0\HAL_ClosestPoint.pdb
+C:\Users\djb20103\Code\HAL_ClosestPoint\obj\Debug\net6.0\HAL_ClosestPoint.csproj.AssemblyReference.cache
+C:\Users\djb20103\Code\HAL_ClosestPoint\obj\Debug\net6.0\HAL_ClosestPoint.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\djb20103\Code\HAL_ClosestPoint\obj\Debug\net6.0\HAL_ClosestPoint.AssemblyInfoInputs.cache
+C:\Users\djb20103\Code\HAL_ClosestPoint\obj\Debug\net6.0\HAL_ClosestPoint.AssemblyInfo.cs
+C:\Users\djb20103\Code\HAL_ClosestPoint\obj\Debug\net6.0\HAL_ClosestPoint.csproj.CoreCompileInputs.cache
+C:\Users\djb20103\Code\HAL_ClosestPoint\obj\Debug\net6.0\HAL_ClosestPoint.dll
+C:\Users\djb20103\Code\HAL_ClosestPoint\obj\Debug\net6.0\ref\HAL_ClosestPoint.dll
+C:\Users\djb20103\Code\HAL_ClosestPoint\obj\Debug\net6.0\HAL_ClosestPoint.pdb
+C:\Users\djb20103\Code\HAL_ClosestPoint\obj\Debug\net6.0\HAL_ClosestPoint.genruntimeconfig.cache
