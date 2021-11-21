@@ -1,0 +1,5 @@
+C:\Users\djb20103\Code\HAL_ClosestPoint\bin\Debug\net6.0\publish\HAL_ClosestPoint.exe
+C:\Users\djb20103\Code\HAL_ClosestPoint\bin\Debug\net6.0\publish\HAL_ClosestPoint.dll
+C:\Users\djb20103\Code\HAL_ClosestPoint\bin\Debug\net6.0\publish\HAL_ClosestPoint.deps.json
+C:\Users\djb20103\Code\HAL_ClosestPoint\bin\Debug\net6.0\publish\HAL_ClosestPoint.runtimeconfig.json
+C:\Users\djb20103\Code\HAL_ClosestPoint\bin\Debug\net6.0\publish\HAL_ClosestPoint.pdb
