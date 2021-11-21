@@ -5,8 +5,8 @@ namespace HAL_ClosestPoint
 {class Coordinate
     //Coordinate object is our basic point on a 2D Cartesian Plane. 
     {
-       private double x; //X Coordinate
-       private double y; //Y Coordinate
+       private double x { get; } //X Coordinate
+       private double y { get; } //Y Coordinate
 
        public Coordinate(){
            //Default Constructor
@@ -20,9 +20,8 @@ namespace HAL_ClosestPoint
        } 
 
        //Providing Accessor but not mutator functions. Design intent is that a point is set once created for the purposes of the exercise.
-        public double[] get(){ return new double[] {x, y};}
-        public double X() {return x;}
-        public double Y() {return y;}
+        public double X{ get {return x;} }
+        public double Y{ get {return y;} }
 
        public override string ToString() => $"{x}, {y}"; //Override inherited method from System.Object Class
 

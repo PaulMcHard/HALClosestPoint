@@ -44,7 +44,7 @@ namespace HAL_ClosestPoint
             Line lineOne = new Line(2, 4, 6, 6);
             Coordinate point = new Coordinate(4,1); //Leave as origin for test
             (Coordinate CP, double CPdist) = lineOne.getClosestPointDistance(point);
-            Console.WriteLine($"Closest Point to Line is at {CP.X()}, {CP.Y()} at a distance of {CPdist}");
+            Console.WriteLine($"Closest Point to Line is at {CP.X}, {CP.Y} at a distance of {CPdist}");
         }
 
         private static void testTwo(){
@@ -55,7 +55,7 @@ namespace HAL_ClosestPoint
             SingleLines.Add(new Line(2,1,3,4));
             Coordinate point = new Coordinate(1,3);
             (Coordinate CP, int index, double dist) = ProgUtils.CPInLineSet(SingleLines, point);
-            Console.WriteLine($"{SingleLines.Count} lines were given. The nearest line was line {index + 1}, which had a CP at ({CP.X()}, {CP.Y()}), with a distance {dist} from the given point.");
+            Console.WriteLine($"{SingleLines.Count} lines were given. The nearest line was line {index + 1}, which had a CP at ({CP.X}, {CP.Y}), with a distance {dist} from the given point.");
         }
 
         private static void testThree(){
@@ -69,7 +69,7 @@ namespace HAL_ClosestPoint
             
             Coordinate point = new Coordinate(4,4);
             (Coordinate CP, int index, double dist) = ProgUtils.CPInLineSet(SingleLines, point);
-            Console.WriteLine($"{SingleLines.Count} lines were given. The nearest line was line {index + 1}, which had a CP at ({CP.X()}, {CP.Y()}), with a distance {dist} from the given point.");
+            Console.WriteLine($"{SingleLines.Count} lines were given. The nearest line was line {index + 1}, which had a CP at ({CP.X}, {CP.Y}), with a distance {dist} from the given point.");
         }
         private static void testFour(){
             //Test 4: Generate individual coordinates, pass into a polyline and get CP from a new point to the PL
@@ -80,7 +80,7 @@ namespace HAL_ClosestPoint
             Polyline liner = new Polyline(new Coordinate[] {One, Two, Three, Four});
             Console.WriteLine(liner.ToString());
             (Coordinate PolyCP, double PolyDist) = liner.getClosestPointDistance(new Coordinate(2,3));
-            Console.WriteLine($"{liner.lines.Count} lines were given. The CP is at ({PolyCP.X()}, {PolyCP.Y()}), with a distance {Math.Round(PolyDist, 2)} from the given point.");
+            Console.WriteLine($"{liner.lines.Count} lines were given. The CP is at ({PolyCP.X}, {PolyCP.Y}), with a distance {Math.Round(PolyDist, 2)} from the given point.");
         }
 
         private static void testFive(){
@@ -91,7 +91,7 @@ namespace HAL_ClosestPoint
             Coordinate P = new Coordinate(2.7, 4.5);
             List<Line> lineSet = new List<Line>(){pl, l1, l2};
             (Coordinate CP, int Index, double Dist) = ProgUtils.CPInLineSet(lineSet, P);
-             Console.WriteLine($"{lineSet.Count} lines were given. The nearest line was line {Index}, which had a CP at ({CP.X()}, {CP.Y()}), with a distance {Math.Round(Dist, 2)} from the given point.");
+             Console.WriteLine($"{lineSet.Count} lines were given. The nearest line was line {Index}, which had a CP at ({CP.X}, {CP.Y}), with a distance {Math.Round(Dist, 2)} from the given point.");
         }
     }
     
@@ -141,9 +141,9 @@ namespace HAL_ClosestPoint
             }
             Console.WriteLine("All lines set, please specify a target point for Closest Point calculation");
             Coordinate target = ProgUtils.VertexSetFromString(Console.ReadLine())[0]; //Simplicity of the operation in this case is just to ignore everything beyond the first point we receive 
-            Console.WriteLine($"Target point set at ({target.X()},{target.Y()})");
+            Console.WriteLine($"Target point set at ({target.X},{target.Y})");
             (Coordinate CP, int Index, double Dist) = ProgUtils.CPInLineSet(lineSet, target);
-            Console.WriteLine($"{lineSet.Count} lines were given. The nearest line was line {Index+1}, which had a CP at ({CP.X()}, {CP.Y()}), with a distance {Math.Round(Dist, 2)} from the given point.");
+            Console.WriteLine($"{lineSet.Count} lines were given. The nearest line was line {Index+1}, which had a CP at ({CP.X}, {CP.Y}), with a distance {Math.Round(Dist, 2)} from the given point.");
             Console.WriteLine("Thank you for using this tool. Press Space bar to close...");
             while (Console.ReadKey().Key != ConsoleKey.Spacebar){
                 //Included so the program hangs and output can be read.

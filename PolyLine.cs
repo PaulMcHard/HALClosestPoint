@@ -9,7 +9,7 @@ namespace HAL_ClosestPoint
 
         public Polyline(Coordinate[] c){
              //Polyline from n coordinates.
-             this.setCoords(c);
+             this.Coordinates = c;
              this.lines = new List<Line>();
              for (int j = 1; j < c.Length; j++){
                 this.lines.Add(new Line(c[j - 1], c[j]));
@@ -39,7 +39,7 @@ namespace HAL_ClosestPoint
             return (closestCP, shortestDistance);
         }
 
-        public override string ToString() => $"This is a polyline made up of {lines.Count} line segments starting from ({lines[0].getStart().X()},{lines[0].getStart().Y()}) and going to ({lines.Last().getEnd().X()},{lines.Last().getEnd().Y()})";
+        public override string ToString() => $"This is a polyline made up of {lines.Count} line segments starting from ({lines[0].getStart().X},{lines[0].getStart().Y}) and going to ({lines.Last().getEnd().X},{lines.Last().getEnd().Y})";
     }
     
 }
