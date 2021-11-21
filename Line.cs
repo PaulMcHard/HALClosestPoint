@@ -6,8 +6,8 @@ namespace HAL_ClosestPoint
     class Line
     {
       
-        private Coordinate[] coordinates {get; set;}
-        private double[] vector {get;}
+        protected Coordinate[] coordinates {get; set;}
+        protected double[] vector {get;}
        public Line(){
             //Setting the default as a 2D [1 1] unit vector in each X,Y
             coordinates = new Coordinate[] { new Coordinate(0, 0), new Coordinate(1, 1)};
